@@ -1,0 +1,31 @@
+.icon-car:hover{
+    color: blueviolet;
+}
+
+.card--container{
+    padding: 0 10rem;
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 33.3%);
+}
+
+
+.card{
+    max-width: 20rem;
+    min-width: 13rem;
+}
+
+
+
+@media (max-width: 1000px) {
+    .container{
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media (max-width: 750px) {
+    .container{
+        grid-template-columns: 100%;
+    }
+}
